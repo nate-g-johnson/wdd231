@@ -70,16 +70,15 @@ header {
     background: none;
     color: var(--white);
     font-size: 1.5rem;
-    width: 44px;      /* Accessible touch target */
-    height: 44px;     /* Accessible touch target */
+    width: 44px;
+    height: 44px;
     align-items: center;
     justify-content: center;
     position: relative;
 }
 
-/* Show hamburger icon (☰) */
 .hamburger::before {
-    content: "\2630"; /* Unicode for ☰ */
+    content: "\2630";
     font-family: Arial, sans-serif;
     color: var(--white);
     font-size: 1.5rem;
@@ -88,7 +87,7 @@ header {
 
 /* Show close icon (×) when active */
 .hamburger.show::before {
-    content: "\00D7"; /* Unicode for × */
+    content: "\00D7"; 
     font-family: Arial, sans-serif;
     color: var(--white);
     font-size: 1.5rem;
@@ -298,6 +297,16 @@ h2 {
     padding: 1rem;
     border-radius: 0.5rem;
     border: 2px solid var(--border-color);
+}
+
+.learning-objectives {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    list-style-type: disc;
+}
+
+.learning-objectives li {
+    margin-bottom: 0.5rem;
 }
 
 /* Footer */
