@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 231 - Web Frontend Development</title>
+    <meta name="description" content="WDD 231 Web Frontend Development course homepage showcasing projects and assignments">
+    <meta name="author" content="Nathan Johnson">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="images/logo.svg" alt="Logo" class="logo" />
+                <span class="user-name">Nathan Johnson</span>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu"></button>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">Final</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <section>
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="course-filter">
+                <button class="filter-btn active" data-filter="all">All Courses</button>
+                <button class="filter-btn" data-filter="WDD">WDD Courses</button>
+                <button class="filter-btn" data-filter="CSE">CSE Courses</button>
+            </div>
+            <div class="course-grid" id="courseGrid">
+                <!-- Course cards will be populated by JavaScript -->
+            </div>
+            <div class="credits-total">
+                Total Credits Required: <span id="totalCredits">0</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>About Me</h2>
+            <p>Welcome to my WDD 231 Web Frontend Development course homepage. This site showcases my journey through web development, including projects, assignments, and the skills I'm developing in modern web technologies.</p>
+            <p>I'm passionate about creating responsive, accessible, and user-friendly web experiences. Through this course, I'm learning advanced CSS techniques, JavaScript programming, and modern web development best practices.</p>
+        </section>
+
+        <section>
+            <h2>Learning Objectives</h2>
+            <p>Throughout this course, I'm developing expertise in:</p>
+            <ul style="margin-left: 2rem; margin-top: 1rem;">
+                <li>Advanced CSS layout techniques including Flexbox and Grid</li>
+                <li>Responsive web design principles and mobile-first development</li>
+                <li>JavaScript programming for interactive web applications</li>
+                <li>Web API integration and data manipulation</li>
+                <li>Accessibility standards and best practices</li>
+                <li>Performance optimization and SEO fundamentals</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener" aria-label="GitHub">
+                    <img src="images/github.svg" alt="GitHub" width="24" height="24" />
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <img src="images/linkedin.svg" alt="LinkedIn" width="24" height="24" />
+                </a>
+                <a href="https://youtube.com/yourprofile" target="_blank" rel="noopener" aria-label="YouTube">
+                    <img src="images/youtube.svg" alt="YouTube" width="24" height="24" />
+                </a>
+            </div>
+            <div class="footer-info">
+                <p>&copy; <span id="currentyear"></span>💲Nathan Johnson, South Carolina💲</p>
+            </div>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

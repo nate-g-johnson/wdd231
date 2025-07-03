@@ -1,0 +1,62 @@
+/* Breakpoint for larger screens */
+@media screen and (min-width: 769px) {
+    
+    /* Show nav menu horizontally and always visible */
+    .nav-menu {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        background: var(--secondary-color);
+        box-shadow: none;
+        width: auto;
+        padding: 0 1rem;
+        gap: 2rem;
+        justify-content: flex-end;
+        align-items: center;
+        min-height: 50px;
+    }
+    
+   .nav-menu li a {
+    color: var(--white);
+    font-weight: 600;
+    padding: 0.5rem 1rem; /* makes clickable area bigger */
+    border-radius: 0.25rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+}
+
+    .nav-menu li a:hover {
+        color: var(--accent-color);
+        background: transparent;
+        transform: none;
+    }
+
+    .nav-menu li a.active {
+        color: var(--accent-color);
+        background: transparent;
+        font-weight: 700;
+    }
+
+    /* Hide hamburger on larger screens */
+    .hamburger {
+        display: none;
+    }
+
+    .header-content {
+        justify-content: space-between;
+    }
+
+    .logo-section {
+        gap: 1.5rem;
+    }
+
+    main {
+        padding: 2rem;
+    }
+
+    .course-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    }
+}
