@@ -85,7 +85,6 @@ header {
     line-height: 1;
 }
 
-/* Show close icon (×) when active */
 .hamburger.show::before {
     content: "\00D7"; 
     font-family: Arial, sans-serif;
@@ -179,6 +178,27 @@ h2 {
     padding-bottom: 0.5rem;
 }
 
+.about-photo-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about-me, .student-photo {
+    width: 100%;
+}
+
+.about-me p {
+    margin-bottom: 1rem;
+}
+
+.student-photo img {
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: var(--shadow-lg);
+}
+
+/* COURSE FILTER + GRID + CARDS (added) */
 .course-filter {
     display: flex;
     gap: 1rem;
@@ -299,17 +319,7 @@ h2 {
     border: 2px solid var(--border-color);
 }
 
-.learning-objectives {
-    margin-left: 2rem;
-    margin-top: 1rem;
-    list-style-type: disc;
-}
-
-.learning-objectives li {
-    margin-bottom: 0.5rem;
-}
-
-/* Footer */
+/* Footer styles */
 footer {
     background: var(--text-dark);
     color: var(--white);

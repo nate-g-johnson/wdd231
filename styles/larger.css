@@ -1,7 +1,5 @@
-/* Breakpoint for larger screens */
 @media screen and (min-width: 769px) {
     
-    /* Show nav menu horizontally and always visible */
     .nav-menu {
         display: flex !important;
         position: static;
@@ -16,15 +14,15 @@
         min-height: 50px;
     }
     
-   .nav-menu li a {
-    color: var(--white);
-    font-weight: 600;
-    padding: 0.5rem 1rem; /* makes clickable area bigger */
-    border-radius: 0.25rem;
-    transition: color 0.3s ease, background-color 0.3s ease;
-    display: inline-block;
-    text-decoration: none;
-}
+    .nav-menu li a {
+        color: var(--white);
+        font-weight: 600;
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+        transition: color 0.3s ease, background-color 0.3s ease;
+        display: inline-block;
+        text-decoration: none;
+    }
 
     .nav-menu li a:hover {
         color: var(--accent-color);
@@ -58,5 +56,20 @@
     .course-grid {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 2rem;
+    }
+  
+    .about-photo-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .about-me {
+        flex: 2;
+    }
+
+    .student-photo {
+        flex: 1;
     }
 }
