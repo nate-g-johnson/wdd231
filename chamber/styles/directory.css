@@ -73,8 +73,13 @@ nav ul {
   display: block;
 }
 
+#menu li a.active {
+  background-color: #1e40af; /* Darker shade of blue */
+  border-radius: 4px;
+}
+
 #menu li a:hover {
-  background-color: #1e40af;
+  background-color: #1e3a8a;
   border-radius: 3px;
 }
 
