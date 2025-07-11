@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Pine Creek Coffee",
+    "address": "123 Bean St, Fort Mill",
+    "phone": "555-987-6543",
+    "website": "https://pinecreekcoffee.com",
+    "image": "pinecreek.webp",
+    "membership": 3
+  },
+  {
+    "name": "Valley Auto Repairs",
+    "address": "78 Mechanic Ln, Fort Mill",
+    "phone": "555-543-1234",
+    "website": "https://valleyautorepairs.com",
+    "image": "valleyauto.webp",
+    "membership": 2
+  },
+  {
+    "name": "Green Thumb Landscaping",
+    "address": "456 Garden Ave, Fort Mill",
+    "phone": "555-321-9876",
+    "website": "https://greenthumblandscaping.com",
+    "image": "greenthumb.webp",
+    "membership": 1
+  },
+  {
+    "name": "Tech Haven Electronics",
+    "address": "789 Circuit Rd, Fort Mill",
+    "phone": "555-654-3210",
+    "website": "https://techhaven.com",
+    "image": "techhaven.webp",
+    "membership": 3
+  },
+  {
+    "name": "Sunny Days Bakery",
+    "address": "321 Pastry St, Fort Mill",
+    "phone": "555-456-7890",
+    "website": "https://sunnydaysbakery.com",
+    "image": "sunnydays.webp",
+    "membership": 2
+  },
+  {
+    "name": "Mountain Peak Fitness",
+    "address": "654 Workout Way, Fort Mill",
+    "phone": "555-789-1234",
+    "website": "https://mountainpeakfitness.com",
+    "image": "mountainpeak.webp",
+    "membership": 1
+  },
+  {
+    "name": "Ocean Breeze Spa",
+    "address": "987 Relax Rd, Fort Mill",
+    "phone": "555-321-6543",
+    "website": "https://oceanbreezespa.com",
+    "image": "oceanbreeze.webp",
+    "membership": 3
+  }
+]
