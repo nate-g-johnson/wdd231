@@ -16,6 +16,7 @@ async function getMembers() {
 
 function displayMembers(members) {
   const container = document.getElementById('members-container');
+  if (!container) return;
   container.innerHTML = '';
 
   members.forEach(member => {
@@ -48,6 +49,8 @@ function setupViewToggle() {
   const listButton = document.getElementById('list-view');
   const container = document.getElementById('members-container');
 
+  if (!gridButton || !listButton || !container) return;
+
   gridButton.addEventListener('click', () => {
     container.classList.add('grid-view');
     container.classList.remove('list-view');
@@ -59,37 +62,8 @@ function setupViewToggle() {
   });
 }
 
-// Hamburger menu toggle for small screens
-function setupHamburgerMenu() {
-  const menuButton = document.getElementById('menu-button');
-  const menu = document.getElementById('menu');
-
-  menuButton.addEventListener('click', () => {
-    menu.classList.toggle('active');
-  });
-
-  // Optional: Close menu when clicking outside or on a menu link
-  document.addEventListener('click', (event) => {
-    if (!menu.contains(event.target) && event.target !== menuButton) {
-      menu.classList.remove('active');
-    }
-  });
-}
-
-function displayFooterDates() {
-  // Display current year
-  const yearSpan = document.getElementById('year');
-  yearSpan.textContent = new Date().getFullYear();
-
-  // Display last modified date
-  const lastModifiedSpan = document.getElementById('lastModified');
-  lastModifiedSpan.textContent = document.lastModified;
-}
-
-// Initialize all functionality on DOM ready
+// Initialize directory page features
 document.addEventListener('DOMContentLoaded', () => {
   getMembers();
   setupViewToggle();
-  setupHamburgerMenu();
-  displayFooterDates();
 });
