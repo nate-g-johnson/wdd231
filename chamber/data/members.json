@@ -5,7 +5,7 @@
     "phone": "555-987-6543",
     "website": "https://pinecreekcoffee.com",
     "image": "pinecreek.webp",
-    "membership": 3
+    "membership": "Bronze"
   },
   {
     "name": "Valley Auto Repairs",
@@ -13,7 +13,7 @@
     "phone": "555-543-1234",
     "website": "https://valleyautorepairs.com",
     "image": "valleyauto.webp",
-    "membership": 2
+    "membership": "Silver"
   },
   {
     "name": "Green Thumb Landscaping",
@@ -21,7 +21,7 @@
     "phone": "555-321-9876",
     "website": "https://greenthumblandscaping.com",
     "image": "greenthumb.webp",
-    "membership": 1
+    "membership": "Gold"
   },
   {
     "name": "Tech Haven Electronics",
@@ -29,7 +29,7 @@
     "phone": "555-654-3210",
     "website": "https://techhaven.com",
     "image": "techhaven.webp",
-    "membership": 3
+    "membership": "Bronze"
   },
   {
     "name": "Sunny Days Bakery",
@@ -37,7 +37,7 @@
     "phone": "555-456-7890",
     "website": "https://sunnydaysbakery.com",
     "image": "sunnydays.webp",
-    "membership": 2
+    "membership": "Silver"
   },
   {
     "name": "Mountain Peak Fitness",
@@ -45,7 +45,7 @@
     "phone": "555-789-1234",
     "website": "https://mountainpeakfitness.com",
     "image": "mountainpeak.webp",
-    "membership": 1
+    "membership": "Gold"
   },
   {
     "name": "Ocean Breeze Spa",
@@ -53,6 +53,6 @@
     "phone": "555-321-6543",
     "website": "https://oceanbreezespa.com",
     "image": "oceanbreeze.webp",
-    "membership": 3
+    "membership": "Bronze"
   }
 ]

@@ -5,11 +5,13 @@ body {
   color: #333;
 }
 
-h1 {
+main h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
 }
-
 header {
   display: flex;
   justify-content: space-between; /* Title left, button right */
@@ -20,12 +22,6 @@ header {
   color: white;
 }
 
-main h1 {
-  margin: 0;
-  font-size: 1.5rem;
-  text-align: center;
-
-}
 
 nav ul {
   list-style: none;
