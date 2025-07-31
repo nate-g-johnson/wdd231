@@ -1,0 +1,54 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #2e8b57;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 1.5rem;
+}
+
+h1 .accent {
+  color: #f4a261;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.primary {
+  color: #2e8b57;
+  font-weight: bold;
+}
+
+.accent {
+  color: #f4a261;
+  font-weight: bold;
+}
+
+.wireframes img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 1rem auto;
+}
+
+footer {
+  text-align: center;
+  background-color: #f4a261;
+  padding: 1rem;
+  color: #fff;
+}
