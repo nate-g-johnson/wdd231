@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Anne Springs Close Greenway",
+    "address": "123 Greenway Rd, Fort Mill, SC 29715",
+    "description": "A 2,100-acre nature preserve offering hiking, biking, horseback riding, and paddling.",
+    "image": "anne-springs-close-greenway.webp",
+    "url": "https://www.ascgreenway.org/"
+  },
+  {
+    "name": "Historic Downtown Fort Mill",
+    "address": "Downtown Fort Mill, SC 29715",
+    "description": "Charming historic district with shops, dining, and community events.",
+    "image": "historic-downtown-fort-mill.webp",
+    "url": "https://fortmillsc.gov/457/Town-of-Fort-Mill-Historic-District"
+  },
+  {
+    "name": "Carolina Thread Trail",
+    "address": "Various Locations, Fort Mill, SC",
+    "description": "A regional network of trails and greenways promoting outdoor recreation and connectivity.",
+    "image": "carolina-thread-trail.webp",
+    "url": "https://www.carolinathreadtrail.org/"
+  },
+  {
+    "name": "Fort Mill History Museum",
+    "address": "215 Confederate St, Fort Mill, SC 29715",
+    "description": "Museum showcasing local history, Civil War artifacts, and cultural exhibits.",
+    "image": "fort-mill-history-museum.webp",
+    "url": "https://fmhm.org/"
+  },
+  {
+    "name": "Tega Cay Marina",
+    "address": "1620 Marina Dr, Fort Mill, SC 29708",
+    "description": "Marina on Lake Wylie offering boat rentals, fishing, and water sports.",
+    "image": "tega-cay-marina.webp",
+    "url": "https://tegacaymarina.com/"
+  },
+  {
+    "name": "Walter Elisha Park",
+    "address": "1101 Gold Hill Rd, Fort Mill, SC 29708",
+    "description": "Public park featuring playgrounds, picnic areas, walking trails, and sports facilities.",
+    "image": "walter-elisha-park.webp",
+    "url": "https://www.fortmillsc.gov/Facilities/Facility/Details/Walter-Elisha-Park-9"
+  },
+  {
+    "name": "Bond Park",
+    "address": "3505 Charlotte Hwy, Fort Mill, SC 29715",
+    "description": "Large park with athletic fields, walking trails, a playground, and a fishing pier.",
+    "image": "bond-park.webp",
+    "url": "https://www.carync.gov/recreation-enjoyment/parks-greenways-environment/parks/fred-g-bond-metro-park"
+  },
+  {
+    "name": "Fort Mill Farmers Market",
+    "address": "200 Confederate St, Fort Mill, SC 29715",
+    "description": "Local farmers market featuring fresh produce, handmade goods, and community gatherings.",
+    "image": "fort-mill-farmers-market.webp",
+    "url": "https://fortmillsc.gov/345/Fort-Mill-Farmers-Artisans-Market"
+  }
+]

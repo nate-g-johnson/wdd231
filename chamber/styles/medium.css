@@ -1,0 +1,47 @@
+/* Medium screens: tablets and small laptops (641px – 1024px) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .discover-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .discover-card {
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .discover-card figure {
+    flex: 1 1 40%;
+    max-height: 100%;
+  }
+
+  .discover-card figure img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .discover-card h2,
+  .discover-card address,
+  .discover-card p,
+  .discover-card button {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .discover-card h2 {
+    font-size: 1.1rem;
+  }
+
+  .discover-card p {
+    font-size: 0.85rem;
+  }
+
+  .discover-card button {
+    align-self: flex-start;
+  }
+
+  .visit-message {
+    margin: 1rem auto;
+    max-width: 90%;
+  }
+}

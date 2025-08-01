@@ -1,0 +1,110 @@
+/* Grid container for discover cards */
+.discover-grid {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  grid-template-columns: 1fr;
+}
+
+
+/* Large screens (desktops) */
+@media (min-width: 1025px) {
+  .discover-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Each discover card styling */
+.discover-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.discover-card:hover {
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+}
+
+.discover-card figure {
+  margin: 0;
+  overflow: hidden;
+  max-height: 200px;
+}
+
+.discover-card figure img {
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+
+/* Hover effect on images only for larger screens */
+@media (min-width: 641px) {
+  .discover-card:hover figure img {
+    transform: scale(1.05);
+  }
+}
+
+.discover-card h2 {
+  font-size: 1.25rem;
+  margin: 0.75rem 1rem 0.5rem 1rem;
+  color: #2563eb;
+  text-align: center;
+}
+
+.discover-card address {
+  font-style: normal;
+  font-size: 0.9rem;
+  margin: 1rem 1rem 1rem 1rem;
+  color: #555;
+}
+
+.discover-card p {
+  font-size: 0.9rem;
+  margin: 0 1rem 1rem 1rem;
+  flex-grow: 1;
+  color: #333;
+}
+
+.discover-card button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem 1rem 1rem;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.discover-card button:hover,
+.discover-card button:focus {
+  background-color: #1e40af;
+  outline: none;
+}
+
+/* Last visit message styling */
+.visit-message {
+  background-color: #e0f2fe; /* light blue */
+  border: 1px solid #2563eb;
+  border-radius: 6px;
+  color: #1e40af;
+  padding: 0.75rem 1rem;
+  margin: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Accessibility */
+.visit-message:focus {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+}
