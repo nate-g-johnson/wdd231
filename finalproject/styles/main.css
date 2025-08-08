@@ -1,0 +1,378 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+  background-color: #007a5e;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Hamburger button - visible on mobile */
+#menu-button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  order: 1;
+  color: white;
+}
+
+/* Menu hidden by default */
+#menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #007a5e; 
+  border-radius: 0 0 8px 8px;
+  padding: 1rem 0;
+  flex-direction: column;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#menu.active {
+  display: flex;
+}
+
+#menu li {
+  margin: 0.5rem 0;
+}
+
+#menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  display: block;
+}
+
+#menu li a.active {
+  background-color: #005f47; /* darker green shade */
+  border-radius: 4px;
+}
+
+#menu li a:hover {
+  background-color: #004334; /* even darker green */
+  border-radius: 3px;
+}
+
+main h1 {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  color: white;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  filter: brightness(50%);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-cta {
+  display: inline-block;
+  background-color: #007B5E;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  z-index: 2;
+  position: relative;
+}
+
+.btn-cta:hover,
+.btn-cta:focus {
+  background-color: #005f47;
+}
+
+/* Set a fixed height for the hero */
+.hero {
+  height: 400px;
+}
+@media (max-width: 600px) {
+  .hero {
+    height: 300px;
+  }
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
+
+.featured h3 {
+  text-align: center;
+  font-size: 1.75rem;
+  margin-top: 2rem;
+}
+
+.trail-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.trail-list {
+  display: grid;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+
+.trail-card {
+  background: #f5f5f5;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.featured-trails {
+  padding: 2rem 1rem;
+  background-color: #eaf4ec;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.featured-trails h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #007a5e;
+}
+
+.trail-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.trail-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.trail-card:hover {
+  transform: translateY(-5px);
+}
+
+.trail-card h3 {
+  margin-top: 0;
+  color: #005f47;
+}
+
+.trail-card p {
+  margin: 0.4rem 0;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+}
+
+.about img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.about-text {
+  text-align: center;
+  max-width: 800px;
+}
+
+/* Contact Page Base Styles */
+.contact-container {
+  max-width: 95%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-container h1,
+.contact-container p {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 1rem auto;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-group label {
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus {
+  outline: none;
+  border-color: #007B5E;
+  box-shadow: 0 0 4px rgba(0, 123, 94, 0.3);
+}
+
+.contact-form button {
+  background-color: #007B5E;
+  color: #fff;
+  padding: 0.85rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center;
+  width: 50%;
+  min-width: 150px;
+}
+
+.contact-form button:hover,
+.contact-form button:focus {
+  background-color: #005f47;
+}
+
+@media (max-width: 600px) {
+  .contact-container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .contact-form button {
+    width: 100%;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ddd;
+  font-size: 0.9rem;
+}

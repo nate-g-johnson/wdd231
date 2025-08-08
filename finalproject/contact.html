@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the best local hiking trails in Fort Mill, SC">
+  <meta name="author" content="Nathan Johnson">
+
+  <meta property="og:title" content="Fort Mill Trails">
+  <meta property="og:description" content="Discover scenic hiking routes in Fort Mill, SC.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://nate-g-johnson.github.io/wdd231/finalproject/images/og-image.jpg">
+  <meta property="og:url" content="https://nate-g-johnson.github.io/wdd231/finalproject/">
+
+  <title>Contact Us | Fort Mill Trails</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <script type="module" src="scripts/main.js" defer></script>
+</head>
+<body>
+  <header>
+      <nav id="primary-nav">
+          <button id="menu-button" aria-label="Toggle menu">&#9776;</button>
+          <ul id="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="trails.html">Trails</a></li>
+              <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+      </nav>
+  </header>
+
+    <main>
+    <section class="contact-container" aria-label="Contact form section">
+        <h1>Contact Us</h1>
+        <p>We’d love to hear from you! Fill out the form below and we’ll get back to you soon.</p>
+
+        <form id="contactForm" action="form-response.html" method="get" novalidate>
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required aria-required="true" />
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required aria-required="true" />
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required aria-required="true"></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+        </form>
+    </section>
+    </main>
+
+  <footer>
+    &copy; <span id="year"></span> Fort Mill Trails |
+    Last Modified: <span id="lastModified"></span> |
+    <a href="https://www.loom.com/share/e22be11f3dc742c8ba63a3b4256bb0c9?sid=bf34e90a-3b92-4dd7-bf1f-471bab44505c" target="_blank">Demo Video</a>
+  </p>
+  </footer>
+</body>
+</html>

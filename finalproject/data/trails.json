@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Anne Springs Close Greenway",
+    "length": "5.6 miles",
+    "difficulty": "Moderate",
+    "terrain": "Wooded trails, creeks",
+    "features": ["Wildlife", "Lake", "Horseback trails"],
+    "featured": true
+  },
+  {
+    "name": "Walter Elisha Park Trail",
+    "length": "1.2 miles",
+    "difficulty": "Easy",
+    "terrain": "Paved and gravel paths",
+    "features": ["Playground", "Open fields", "Benches"],
+    "featured": false
+  },
+  {
+    "name": "Kingsley Trail Loop",
+    "length": "2.5 miles",
+    "difficulty": "Moderate",
+    "terrain": "Mixed surface, light elevation",
+    "features": ["Shops nearby", "Shaded areas"],
+    "featured": true
+  },
+  {
+    "name": "Rock Hill Riverwalk Trail",
+    "length": "4.5 miles",
+    "difficulty": "Easy",
+    "terrain": "Paved riverfront trail",
+    "features": ["Scenic views", "Benches", "Fishing spots"],
+    "featured": false
+  },
+  {
+    "name": "Catawba River Trail",
+    "length": "3.8 miles",
+    "difficulty": "Moderate",
+    "terrain": "Gravel and dirt paths",
+    "features": ["Wildlife", "River access", "Picnic areas"],
+    "featured": true
+  },
+  {
+    "name": "Manchester Meadows Greenway",
+    "length": "2.0 miles",
+    "difficulty": "Easy",
+    "terrain": "Paved and natural surface",
+    "features": ["Dog friendly", "Playground", "Open fields"],
+    "featured": false
+  },
+  {
+    "name": "Glencairn Garden Trail",
+    "length": "1.0 mile",
+    "difficulty": "Easy",
+    "terrain": "Garden paths, flat",
+    "features": ["Gardens", "Benches", "Picnic areas"],
+    "featured": false
+  },
+  {
+    "name": "Riverwalk West Trail",
+    "length": "3.2 miles",
+    "difficulty": "Moderate",
+    "terrain": "Mixed dirt and paved",
+    "features": ["River views", "Wildlife", "Benches"],
+    "featured": false
+  },
+  {
+    "name": "Gateway Nature Trail",
+    "length": "1.7 miles",
+    "difficulty": "Moderate",
+    "terrain": "Wooded and natural",
+    "features": ["Bird watching", "Wildflowers"],
+    "featured": false
+  },
+  {
+    "name": "Manchester Marsh Trail",
+    "length": "2.8 miles",
+    "difficulty": "Moderate",
+    "terrain": "Gravel with boardwalk sections",
+    "features": ["Marsh views", "Wildlife spotting"],
+    "featured": false
+  },
+  {
+    "name": "Fort Mill Greenway Trail",
+    "length": "2.5 miles",
+    "difficulty": "Easy",
+    "terrain": "Paved, flat",
+    "features": ["Benches", "Fitness stations", "Family friendly"],
+    "featured": false
+  },
+  {
+    "name": "Rock Hill Nature Reserve Trail",
+    "length": "5.0 miles",
+    "difficulty": "Moderate",
+    "terrain": "Wooded and uneven",
+    "features": ["Wildlife", "Scenic views", "Hiking"],
+    "featured": false
+  },
+  {
+    "name": "Kings Mountain State Park Trails",
+    "length": "7.0 miles",
+    "difficulty": "Difficult",
+    "terrain": "Rocky, elevation changes",
+    "features": ["Waterfalls", "Historic sites", "Wildlife"],
+    "featured": false
+  },
+  {
+    "name": "Marina Park Trail",
+    "length": "1.5 miles",
+    "difficulty": "Easy",
+    "terrain": "Paved, lakeside",
+    "features": ["Fishing docks", "Picnic areas", "Open water views"],
+    "featured": false
+  },
+  {
+    "name": "Crooked Creek Trail",
+    "length": "3.0 miles",
+    "difficulty": "Moderate",
+    "terrain": "Mixed surface, some hills",
+    "features": ["Wildlife", "Creek crossings", "Shaded paths"],
+    "featured": false
+  }
+]

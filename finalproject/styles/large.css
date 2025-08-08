@@ -1,0 +1,161 @@
+@media screen and (min-width: 768px) {
+  #menu-button {
+    display: none;
+  }
+
+  header {
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+
+  /* Hide hamburger button on large screens */
+  #menu-button {
+    display: none;
+  }
+
+  /* Show nav menu horizontally */
+  #menu {
+    display: flex !important;
+    position: static;
+    flex-direction: row;
+    background: none;
+    width: auto;
+    padding: 0;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  #menu li {
+    margin: 0 1rem;
+  }
+
+  #menu li a {
+    color: white;
+    padding: 0;
+  }
+
+  #menu.active {
+    display: flex !important;
+  }
+
+  .trail-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+    .trail-list {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero {
+    padding: 2rem;
+    text-align: left;
+  }
+
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 0.5rem;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.about-text {
+  max-width: 800px;
+  text-align: center;
+}
+
+.weather-widget {
+  max-width: 800px;
+  text-align: left;
+  padding-left: 1rem;
+  font-family: inherit;
+  color: #333;
+}
+
+.weather-widget h3 {
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+.weather-widget p {
+  margin: 0.25rem 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.weather-widget img {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  width: 50px;
+  height: 50px;
+}
+
+/* Large screen layout */
+@media screen and (min-width: 768px) {
+  .about {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-image {
+    flex: 1;
+    max-width: none;
+    padding-right: 1rem;
+  }
+
+  .about-text {
+    flex: 1;
+    text-align: left;
+    padding-left: 1rem;
+  }
+
+  .weather-widget {
+    display: block;
+    flex: 1;
+    margin-left: 1rem;
+    text-align: left;
+  }
+}
+  .contact-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border-radius: 10px;
+  }
+
+  .contact-form {
+    gap: 1.25rem;
+  }
+
+  .contact-form button {
+    font-size: 1.1rem;
+    padding: 1rem;
+    border-radius: 6px;
+  }
+}
